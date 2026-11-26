@@ -1,7 +1,8 @@
 body {
     background-color: black;
     font-family: monospace;
-    color: purple;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
 }
 
 header {
@@ -28,28 +29,145 @@ nav ul {
     padding: 0;
 }
 
-nav a{
-color: white;
-text-decoration: none;
-font-size: 20px;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
 }
 
 nav a:hover {
-    color:rgb(136, 0, 255);
+    color: rgb(136, 0, 255);
 }
 
-#computaçãoquantica, #datacenters {
+#computaçãoquantica,
+#datacenters {
     text-align: center;
     padding: 0;
+    border-radius: 50px;
+
+}
+
+h2 {
+    color: rgb(0, 169, 211)
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 20px;
+}
+
+.computaçãoquantica {
+    width: 450px;
+    background-image: url(https://imgs.search.brave.com/TVyVSgZEiYJD5-zSdM9zQ58CWdfimb0BCY2b140eHqc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE4/NjkwMjQ2OS9wdC9m/b3RvL3F1YW50dW0t/Y29tcHV0aW5nLWNv/bmNlcHQtYWJzdHJh/Y3QtZ2xvd2luZy1l/bGVjdHJvbmljLWNp/cmN1aXQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPV9ucUNa/bHFzOVpSZWFiU2hx/NnVoTG5vY2ZwWk52/VzVTNTUwYWE4M29J/cW89);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(136, 0, 255);
+
+
+}
+
+.computaçãoquantica a {
+    color: cyan;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    transition: 0.3s;
+
+}
+
+.computaçãoquantica a:hover {
+    color: rgb(136, 0, 255);
+    background-color: white;
+}
+
+.datacenters {
+    width: 450px;
+    background-image: url(https://imgs.search.brave.com/7peIVxjYFv4jA--cAVbAmFfRZnLwszK9z06gTM-foPo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE3NDAzNjMy/Njg1MzktY2Q5MDkz/YzNiNWQxP2ZtPWpw/ZyZxPTYwJnc9MzAw/MCZhdXRvPWZvcm1h/dCZmaXQ9Y3JvcCZp/eGxpYj1yYi00LjEu/MCZpeGlkPU5Id3hN/akEzZkRBPQ);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(136, 0, 255);
+
+}
+
+.datacenters a {
+    color: cyan;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    transition: 0.3s;
+
+}
+
+.datacenters a:hover {
+    color: rgb(136, 0, 255);
+    background-color: white
+}
+
+
+.problemas {
+    width: 450px;
+    background-image: url(https://imgs.search.brave.com/5gCpsxGcp1xb8FiQG1W74PuWrt_TSeXxrvUt7naFJwg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjYv/MDA4LzQ4OS9zbWFs/bC9hLXRlY2huaWNp/YW4td29ya2luZy1v/bi1hLXNlcnZlci1y/YWNrLWluLWEtZGF0/YS1jZW50ZXItcGhv/dG8uanBlZw);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(136, 0, 255);
+
+}
+
+.solução {
+    width: 450px;
+    background-image: url(https://imgs.search.brave.com/Z_g0equZerzBGfc1hPmDzmFWVzipqMAIz5u5jPl7l_8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9pbm92YWNhby10/ZWNub2xvZ2ljYS1l/LWNvbmNlaXRvLWZ1/dHVyb183MDAyNDgt/NzI1My5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(136, 0, 255);
+
+}
+
+.conclusão {
+    width: 450px;
+    background-image: url(https://imgs.search.brave.com/DI6rW6p3mKA_Ramvy1fVDCik-N6WhZKJTC4mnwh3UjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL2ZvdG9z/LWdyYXRpcy90Mi83/Nzg5OTU0My1zb3Jy/aWRlbnRlLW1hc2N1/bGluby1wcm9ncmFt/YWRvci1hcGVydGEt/cHVuaG8tZGVudHJv/LXN1Y2Vzc28tZGVw/b2lzLWRlLXJlY2Vi/ZW5kby1hY2Vzc28t/Y29uY2VkaWRvLW5v/dGlmaWNhY2FvLWVt/LWRpc3Bvc2l0aXZv/LWFsZWdyZS1kZXNl/bnZvbHZlZG9yLXNl/bnRhLWFzLWVzY3Jp/dmFuaW5oYS1jb20t/Y29tcHV0YWRvci1w/b3J0YXRpbC1hLWNv/bWVtb3Jhci1iZW0t/c3VjZWRpZG8tZGln/aXRhbC10YXJlZmEt/Y29uY2x1c2FvLWZv/dG8uanBn);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid rgb(136, 0, 255);
+
 }
 
 p {
     font-size: 16px;
-   background-color: rgb(91, 27, 150, 0.5);
 }
 
 section {
-    background-color: cyan;
     font-family: Oswald, sans-serif;
     padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+ 
+}
+
+footer {
+    background-image: url(https://imgs.search.brave.com/-7F7-DbJLDOKfRDaN0oWQ2BBAoO4s-Iv4wDXe8QRom8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzAwLzI1Lzcw/LzM2MF9GXzMwMDI1/NzA3OF9qT0syTDNs/SXZubEhNb1dyS0FX/dEU3RkJhNFdJNWpU/Zi5qcGc);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+
 }
